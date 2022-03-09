@@ -1,0 +1,12 @@
+
+<table width="100%">
+<tbody>
+  <tr ng-repeat="item in items">
+      <td>{{item.short_name}}</td> <td>{{item.name}}</td> <td>{{ item.description }}</td>
+      <td><button ng-click="onRemove({index:$index});">Don't want this one!</button></td>
+  </tr>
+</tbody>
+
+
+
+</table>
